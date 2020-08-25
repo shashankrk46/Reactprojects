@@ -1,0 +1,45 @@
+.header{
+    background-color: black;
+    /* color: cornsilk; */
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+
+input:focus{
+    outline: none;
+}
+.header_search{
+    display: flex;
+    flex: 1;
+}
+.header_searchInput{
+    height:13px;
+    padding: 15px;
+    border:none;
+    width: 100%;
+    margin-left: 10px;
+}
+.header_searchIcon{
+    padding: 2px;
+    height:30px !important;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    /* color: cornsilk; */
+}
