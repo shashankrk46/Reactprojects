@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import ShopData from '../shoppage/ShopData';
 
+import '../../components/Collections/TotalCollections';
+import TotalCollections from '../../components/Collections/TotalCollections';
+
+
 
 class ShopPage extends Component {
     constructor(props) {
@@ -14,9 +18,15 @@ class ShopPage extends Component {
    
 
     render() {
+        const {collections}=this.state;
         return (
+           
             <div>
-               meow
+              {
+                 collections.map(({id,...otherCollectionProps})=>(
+                     <TotalCollections key={id} {...otherCollectionProps}/>
+                 ))
+              }
             </div>
         )
     }

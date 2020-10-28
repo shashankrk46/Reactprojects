@@ -18,24 +18,17 @@ const Header=()=>{
                  <div className="header_option">
 
                 
-                 <a href="#"><span>Hello</span></a>
-                 <a href="#"><span>Sign IN</span></a>
+                 
+                 <Link><span>Sign IN</span></Link>
                  </div>
              </div>
+            
              <div className="header_nav">
                  <div className="header_option">
 
                 
-                 <a href="#"><span>Returns</span></a>
-                 <a href="#"><span> & Order</span></a>
-                 </div>
-             </div>
-             <div className="header_nav">
-                 <div className="header_option">
-
-                
-                 <a href="#"><span>Your</span></a>
-                 <a href="#"><span>Prime</span></a>
+                 <Link><span>Cart</span></Link>
+                 
                  </div>
              </div>
             

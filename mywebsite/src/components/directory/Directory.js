@@ -12,7 +12,7 @@ export class Directory extends Component {
                     title: 'Rings',
                     imageUrl:'https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
                     id: 1,
-                    linkUrl: 'hats'
+                    linkUrl: 'shop'
                   },
                   {
                     title: 'Earrings',
